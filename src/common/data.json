@@ -1,0 +1,1848 @@
+{
+  "poiTotalNum": 0,
+  "poiHasNextPage": true,
+  "nextStartIndex": 1,
+  "shopList": [
+    {
+      "mtWmPoiId": "1074584815278908",
+      "shopName": "一禾小筑",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售455",
+      "picUrl": "http://p0.meituan.net/waimaipoi/f1dff5089a6c088e7fbe6ff473577a142125044.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "1.9km",
+      "averagePriceTip": "",
+      "discounts2": [{
+        "info": "满20减10;满35减15;满40减22",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品6.4折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区紫锦广场1号楼1单元714室",
+      "shipping_time": "09:00-21:00"
+    }, {
+      "mtWmPoiId": "1009473111067828",
+      "shopName": "十秒到过桥米线",
+      "wmPoiScore": 38,
+      "monthSalesTip": "月售598",
+      "picUrl": "http://p0.meituan.net/waimaipoi/ddf1be14c3118dc20dbdd2a3ceaebc81103158.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "768m",
+      "averagePriceTip": "人均 ¥24",
+      "address": "山东省青岛市黄岛区井岗山路2幢378号网点",
+      "shipping_time": "09:00-21:15"
+    }, {
+      "mtWmPoiId": "1081744525786378",
+      "shopName": "小鲜稻湖南米粉",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售1980",
+      "picUrl": "http://p0.meituan.net/business/8c98598b0d2d001b8d7df93c311d3d1f40342.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.1km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满15减13;满31减17;满42减20;满65减25;满80减30",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "领2元券;领3元券;领5元券",
+        "iconUrl": "http://p0.meituan.net/xianfu/c2c0f31d0ebf0f60af115d058169c492992.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "太行山路551号",
+      "shipping_time": "08:00-21:00"
+    }, {
+      "mtWmPoiId": "1057151543074222",
+      "shopName": "老友部落酸菜鱼专门店",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售2914",
+      "picUrl": "http://p0.meituan.net/waimaipoi/6e8e7fb25cb675e3da19f44daa079fc7104509.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥0",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.6km",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满17减11;满39减17;满51减20;满74减30;满115减40",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.48折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付15元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区太行山二支路25号网点",
+      "shipping_time": "10:00-20:00"
+    }, {
+      "mtWmPoiId": "1121210980258114",
+      "shopName": "铁板烧牛扒饭（薛家岛金海岸利群店）",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售2181",
+      "picUrl": "http://p1.meituan.net/business/acb4fe710a3440ff1281a08b09e0bbff409454.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "32分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥10",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.3km",
+      "averagePriceTip": "人均 ¥16",
+      "discounts2": [{
+        "info": "满30减5;满50减10",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品0折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满50元赠送鸡爪一对",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "长江东路696号金海岸利群购物广场一楼内摊位",
+      "shipping_time": "09:00-21:30"
+    }, {
+      "mtWmPoiId": "1077380839043269",
+      "shopName": "重庆板凳水煮鱼",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售790",
+      "picUrl": "http://p0.meituan.net/business/a1be9d3dd27d85a60c25c6822e2ac304280355.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.5km",
+      "averagePriceTip": "人均 ¥18",
+      "discounts2": [{
+        "info": "满25减14;满40减23;满70减37",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.53折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付20元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "井冈山路11号香江旺角2层216铺",
+      "shipping_time": "10:00-21:30"
+    }, {
+      "mtWmPoiId": "1012067271362933",
+      "shopName": "小巷见面(黄岛麦凯乐店)",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售1031",
+      "picUrl": "http://p0.meituan.net/business/22343d328d4d093b70871421606fad1b99318.jpg",
+      "poiTypeIcon": "http://p1.meituan.net/aichequan/a88918ba8699e15a5d16d5d7e09ad0022192.png",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "191m",
+      "averagePriceTip": "人均 ¥22",
+      "recommendInfo": {
+        "icon": "http://p1.meituan.net/xianfu/a0b192ffdab672109d9f767dbd49653a919.png",
+        "recommendReason": "大众点评高分店铺",
+        "type": 3
+      },
+      "discounts2": [{
+        "info": "满35减6;满65减13;满95减18",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付48元返5元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区武夷山路298-3号",
+      "shipping_time": "10:40-20:30"
+    }, {
+      "mtWmPoiId": "992172982846110",
+      "shopName": "全州炭火烤肉（天麓湖店）",
+      "wmPoiScore": 38,
+      "monthSalesTip": "月售67",
+      "picUrl": "http://p0.meituan.net/ziruzhu/cbf5fa0600ef9c0028c51637d1d7523b22357.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.8km",
+      "averagePriceTip": "",
+      "address": "山东省青岛市黄岛区韶山路568号21、22号网点",
+      "shipping_time": "10:00-21:00"
+    }, {
+      "mtWmPoiId": "969031699049998",
+      "shopName": "多岛海炸酱面",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售400",
+      "picUrl": "http://p1.meituan.net/waimaipoi/5439779e602407eb4a27c306956ae71343008.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "4.0km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满25减7;满35减10;满50减16",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "香江一路1-2号网点",
+      "shipping_time": "10:30-20:00"
+    }, {
+      "mtWmPoiId": "1046049052611080",
+      "shopName": "重庆饭店",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售2853",
+      "picUrl": "http://p0.meituan.net/waimaipoi/e17a3dcf66c212ee84f6dccb37267cdb96857.jpeg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.9km",
+      "averagePriceTip": "人均 ¥32",
+      "discounts2": [{
+        "info": "满60减12;满100减18",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区武当山路26号",
+      "shipping_time": "10:00-22:00"
+    }, {
+      "mtWmPoiId": "1099160618198982",
+      "shopName": "韩记老青岛炸肉",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售812",
+      "picUrl": "http://p0.meituan.net/business/3ff2a547673b173663db24b9f04fb6a9369937.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.5km",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满30减14;满60减29;满100减45;满130减58;满168减73",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4.8折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满130元赠送可乐或雪碧2选1",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区北江支路9号北江大厦内（北江路与庐山路交叉口北便民市场负一层）",
+      "shipping_time": "09:15-20:20"
+    }, {
+      "mtWmPoiId": "959922073399396",
+      "shopName": "小院里烤鸭（太行山路店）",
+      "wmPoiScore": 43,
+      "monthSalesTip": "月售45",
+      "picUrl": "http://p1.meituan.net/waimaipoi/7af3119e976dc602619db05a5ec5cc8d22994.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "35分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.9km",
+      "averagePriceTip": "人均 ¥23",
+      "discounts2": [{
+        "info": "满50减20;满100减40",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "武当山路26号",
+      "shipping_time": "10:30-20:30"
+    }, {
+      "mtWmPoiId": "988114238713108",
+      "shopName": "欢乐美滋脆皮鸡米饭（总店）",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售9787",
+      "picUrl": "http://p1.meituan.net/waimaipoi/0270debab4aa946de21569bf7ffd3d8e463625.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "31分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥10",
+      "shippingFeeTip": "配送 ¥2.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.4km",
+      "averagePriceTip": "人均 ¥16",
+      "discounts2": [{
+        "info": "满18减13;满40减26;满82减39",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品3.33折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "青岛市黄岛区金㬂香江旺角11号2层215-1号商铺",
+      "shipping_time": "08:58-23:30"
+    }, {
+      "mtWmPoiId": "882913309800305",
+      "shopName": "夫妻冒菜",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售2934",
+      "picUrl": "http://p0.meituan.net/waimaipoi/5f04ae3eb68e814c50c2ede66534a1e147104.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.6km",
+      "averagePriceTip": "人均 ¥17",
+      "discounts2": [{
+        "info": "满15减3;满25减8;满35减12;满50减18;满100减38",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5.93折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "香江路地一城G区4号",
+      "shipping_time": "10:00-20:20"
+    }, {
+      "mtWmPoiId": "952938456551980",
+      "shopName": "川府宴语精品川菜",
+      "wmPoiScore": 43,
+      "monthSalesTip": "月售578",
+      "picUrl": "http://p1.meituan.net/waimaipoi/907edcab327f24ddf25ab1c713af7ceb9875.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.0km",
+      "averagePriceTip": "人均 ¥28",
+      "discounts2": [{
+        "info": "满35减5;满60减12",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品9.49折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区紫金山路334号网点（海鲜大咖岛城1号旁）",
+      "shipping_time": "10:30-22:30"
+    }, {
+      "mtWmPoiId": "1091567115982120",
+      "shopName": "潼关肉夹馍（濠洼店）",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售1677",
+      "picUrl": "http://p0.meituan.net/waimaipoi/2fdc96f8fcb4c11182d11734c129605d43008.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.0km",
+      "averagePriceTip": "人均 ¥22",
+      "discounts2": [{
+        "info": "满25减4;满35减5;满50减9;满80减12;满100减14",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区香江路35号商业",
+      "shipping_time": "08:00-20:50"
+    }, {
+      "mtWmPoiId": "953299233805471",
+      "shopName": "高小胖私厨·小份菜",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售7349",
+      "picUrl": "http://p0.meituan.net/waimaipoi/4978a3dd44e92a99e8264eb7bc895007109098.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.4km",
+      "averagePriceTip": "人均 ¥21",
+      "discounts2": [{
+        "info": "满15减8;满25减14;满55减27;满100减39",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.55折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "太行山一支路6-12号网点",
+      "shipping_time": "09:45-21:30"
+    }, {
+      "mtWmPoiId": "856791318673882",
+      "shopName": "一 一刀削面",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售2006",
+      "picUrl": "http://p0.meituan.net/waimaipoi/a3b927224e78826c08355d4bf1eb67cb113306.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥2.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "1.9km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满20减4;满35减9;满50减16;满85减25;满125减35",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4.7折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付25元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满50元赠送卤蛋",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "黄浦江路485号",
+      "shipping_time": "07:30-21:00"
+    }, {
+      "mtWmPoiId": "1112560916103306",
+      "shopName": "老四川酒家",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售1856",
+      "picUrl": "http://p0.meituan.net/waimaipoi/e0cc3e308a022d79a4af179f77836b0a142957.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.1km",
+      "averagePriceTip": "人均 ¥33",
+      "discounts2": [{
+        "info": "满80减5",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "紫金山路105号",
+      "shipping_time": "10:30-22:00"
+    }, {
+      "mtWmPoiId": "850542141245549",
+      "shopName": "谨食健身营养餐",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售3866",
+      "picUrl": "http://p1.meituan.net/business/035527efbd00025cc6e47c91d78e603e347971.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "816m",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满8减8;满25减10;满40减14;满50减17;满80减32",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品7.98折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付40元返1元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "长江中路433号1楼285号网点",
+      "shipping_time": "09:40-20:00"
+    },
+    {
+      "mtWmPoiId": "1074584815278908",
+      "shopName": "一禾小筑",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售455",
+      "picUrl": "http://p0.meituan.net/waimaipoi/f1dff5089a6c088e7fbe6ff473577a142125044.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "1.9km",
+      "averagePriceTip": "",
+      "discounts2": [{
+        "info": "满20减10;满35减15;满40减22",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品6.4折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区紫锦广场1号楼1单元714室",
+      "shipping_time": "09:00-21:00"
+    }, {
+      "mtWmPoiId": "1009473111067828",
+      "shopName": "十秒到过桥米线",
+      "wmPoiScore": 38,
+      "monthSalesTip": "月售598",
+      "picUrl": "http://p0.meituan.net/waimaipoi/ddf1be14c3118dc20dbdd2a3ceaebc81103158.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "768m",
+      "averagePriceTip": "人均 ¥24",
+      "address": "山东省青岛市黄岛区井岗山路2幢378号网点",
+      "shipping_time": "09:00-21:15"
+    }, {
+      "mtWmPoiId": "1081744525786378",
+      "shopName": "小鲜稻湖南米粉",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售1980",
+      "picUrl": "http://p0.meituan.net/business/8c98598b0d2d001b8d7df93c311d3d1f40342.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.1km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满15减13;满31减17;满42减20;满65减25;满80减30",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "领2元券;领3元券;领5元券",
+        "iconUrl": "http://p0.meituan.net/xianfu/c2c0f31d0ebf0f60af115d058169c492992.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "太行山路551号",
+      "shipping_time": "08:00-21:00"
+    }, {
+      "mtWmPoiId": "1057151543074222",
+      "shopName": "老友部落酸菜鱼专门店",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售2914",
+      "picUrl": "http://p0.meituan.net/waimaipoi/6e8e7fb25cb675e3da19f44daa079fc7104509.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥0",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.6km",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满17减11;满39减17;满51减20;满74减30;满115减40",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.48折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付15元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区太行山二支路25号网点",
+      "shipping_time": "10:00-20:00"
+    }, {
+      "mtWmPoiId": "1121210980258114",
+      "shopName": "铁板烧牛扒饭（薛家岛金海岸利群店）",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售2181",
+      "picUrl": "http://p1.meituan.net/business/acb4fe710a3440ff1281a08b09e0bbff409454.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "32分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥10",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.3km",
+      "averagePriceTip": "人均 ¥16",
+      "discounts2": [{
+        "info": "满30减5;满50减10",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品0折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满50元赠送鸡爪一对",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "长江东路696号金海岸利群购物广场一楼内摊位",
+      "shipping_time": "09:00-21:30"
+    }, {
+      "mtWmPoiId": "1077380839043269",
+      "shopName": "重庆板凳水煮鱼",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售790",
+      "picUrl": "http://p0.meituan.net/business/a1be9d3dd27d85a60c25c6822e2ac304280355.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.5km",
+      "averagePriceTip": "人均 ¥18",
+      "discounts2": [{
+        "info": "满25减14;满40减23;满70减37",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.53折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付20元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "井冈山路11号香江旺角2层216铺",
+      "shipping_time": "10:00-21:30"
+    }, {
+      "mtWmPoiId": "1012067271362933",
+      "shopName": "小巷见面(黄岛麦凯乐店)",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售1031",
+      "picUrl": "http://p0.meituan.net/business/22343d328d4d093b70871421606fad1b99318.jpg",
+      "poiTypeIcon": "http://p1.meituan.net/aichequan/a88918ba8699e15a5d16d5d7e09ad0022192.png",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "191m",
+      "averagePriceTip": "人均 ¥22",
+      "recommendInfo": {
+        "icon": "http://p1.meituan.net/xianfu/a0b192ffdab672109d9f767dbd49653a919.png",
+        "recommendReason": "大众点评高分店铺",
+        "type": 3
+      },
+      "discounts2": [{
+        "info": "满35减6;满65减13;满95减18",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付48元返5元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区武夷山路298-3号",
+      "shipping_time": "10:40-20:30"
+    }, {
+      "mtWmPoiId": "992172982846110",
+      "shopName": "全州炭火烤肉（天麓湖店）",
+      "wmPoiScore": 38,
+      "monthSalesTip": "月售67",
+      "picUrl": "http://p0.meituan.net/ziruzhu/cbf5fa0600ef9c0028c51637d1d7523b22357.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.8km",
+      "averagePriceTip": "",
+      "address": "山东省青岛市黄岛区韶山路568号21、22号网点",
+      "shipping_time": "10:00-21:00"
+    }, {
+      "mtWmPoiId": "969031699049998",
+      "shopName": "多岛海炸酱面",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售400",
+      "picUrl": "http://p1.meituan.net/waimaipoi/5439779e602407eb4a27c306956ae71343008.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "4.0km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满25减7;满35减10;满50减16",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "香江一路1-2号网点",
+      "shipping_time": "10:30-20:00"
+    }, {
+      "mtWmPoiId": "1046049052611080",
+      "shopName": "重庆饭店",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售2853",
+      "picUrl": "http://p0.meituan.net/waimaipoi/e17a3dcf66c212ee84f6dccb37267cdb96857.jpeg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.9km",
+      "averagePriceTip": "人均 ¥32",
+      "discounts2": [{
+        "info": "满60减12;满100减18",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区武当山路26号",
+      "shipping_time": "10:00-22:00"
+    }, {
+      "mtWmPoiId": "1099160618198982",
+      "shopName": "韩记老青岛炸肉",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售812",
+      "picUrl": "http://p0.meituan.net/business/3ff2a547673b173663db24b9f04fb6a9369937.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.5km",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满30减14;满60减29;满100减45;满130减58;满168减73",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4.8折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满130元赠送可乐或雪碧2选1",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区北江支路9号北江大厦内（北江路与庐山路交叉口北便民市场负一层）",
+      "shipping_time": "09:15-20:20"
+    }, {
+      "mtWmPoiId": "959922073399396",
+      "shopName": "小院里烤鸭（太行山路店）",
+      "wmPoiScore": 43,
+      "monthSalesTip": "月售45",
+      "picUrl": "http://p1.meituan.net/waimaipoi/7af3119e976dc602619db05a5ec5cc8d22994.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "35分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.9km",
+      "averagePriceTip": "人均 ¥23",
+      "discounts2": [{
+        "info": "满50减20;满100减40",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "武当山路26号",
+      "shipping_time": "10:30-20:30"
+    }, {
+      "mtWmPoiId": "988114238713108",
+      "shopName": "欢乐美滋脆皮鸡米饭（总店）",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售9787",
+      "picUrl": "http://p1.meituan.net/waimaipoi/0270debab4aa946de21569bf7ffd3d8e463625.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "31分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥10",
+      "shippingFeeTip": "配送 ¥2.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.4km",
+      "averagePriceTip": "人均 ¥16",
+      "discounts2": [{
+        "info": "满18减13;满40减26;满82减39",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品3.33折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "青岛市黄岛区金㬂香江旺角11号2层215-1号商铺",
+      "shipping_time": "08:58-23:30"
+    }, {
+      "mtWmPoiId": "882913309800305",
+      "shopName": "夫妻冒菜",
+      "wmPoiScore": 47,
+      "monthSalesTip": "月售2934",
+      "picUrl": "http://p0.meituan.net/waimaipoi/5f04ae3eb68e814c50c2ede66534a1e147104.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.6km",
+      "averagePriceTip": "人均 ¥17",
+      "discounts2": [{
+        "info": "满15减3;满25减8;满35减12;满50减18;满100减38",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品5.93折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "香江路地一城G区4号",
+      "shipping_time": "10:00-20:20"
+    }, {
+      "mtWmPoiId": "952938456551980",
+      "shopName": "川府宴语精品川菜",
+      "wmPoiScore": 43,
+      "monthSalesTip": "月售578",
+      "picUrl": "http://p1.meituan.net/waimaipoi/907edcab327f24ddf25ab1c713af7ceb9875.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.0km",
+      "averagePriceTip": "人均 ¥28",
+      "discounts2": [{
+        "info": "满35减5;满60减12",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品9.49折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区紫金山路334号网点（海鲜大咖岛城1号旁）",
+      "shipping_time": "10:30-22:30"
+    }, {
+      "mtWmPoiId": "1091567115982120",
+      "shopName": "潼关肉夹馍（濠洼店）",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售1677",
+      "picUrl": "http://p0.meituan.net/waimaipoi/2fdc96f8fcb4c11182d11734c129605d43008.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.0km",
+      "averagePriceTip": "人均 ¥22",
+      "discounts2": [{
+        "info": "满25减4;满35减5;满50减9;满80减12;满100减14",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "山东省青岛市黄岛区香江路35号商业",
+      "shipping_time": "08:00-20:50"
+    }, {
+      "mtWmPoiId": "953299233805471",
+      "shopName": "高小胖私厨·小份菜",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售7349",
+      "picUrl": "http://p0.meituan.net/waimaipoi/4978a3dd44e92a99e8264eb7bc895007109098.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥4",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "3.4km",
+      "averagePriceTip": "人均 ¥21",
+      "discounts2": [{
+        "info": "满15减8;满25减14;满55减27;满100减39",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品2.55折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "太行山一支路6-12号网点",
+      "shipping_time": "09:45-21:30"
+    }, {
+      "mtWmPoiId": "856791318673882",
+      "shopName": "一 一刀削面",
+      "wmPoiScore": 45,
+      "monthSalesTip": "月售2006",
+      "picUrl": "http://p0.meituan.net/waimaipoi/a3b927224e78826c08355d4bf1eb67cb113306.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥2.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "1.9km",
+      "averagePriceTip": "人均 ¥15",
+      "discounts2": [{
+        "info": "满20减4;满35减9;满50减16;满85减25;满125减35",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品4.7折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付25元返3元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "满50元赠送卤蛋",
+        "iconUrl": "http://p1.meituan.net/xianfu/5ffe01c550a139db693d152cefd1b247869.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "黄浦江路485号",
+      "shipping_time": "07:30-21:00"
+    }, {
+      "mtWmPoiId": "1112560916103306",
+      "shopName": "老四川酒家",
+      "wmPoiScore": 46,
+      "monthSalesTip": "月售1856",
+      "picUrl": "http://p0.meituan.net/waimaipoi/e0cc3e308a022d79a4af179f77836b0a142957.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 1,
+      "minPriceTip": "起送 ¥20",
+      "shippingFeeTip": "配送 ¥3.5",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "2.1km",
+      "averagePriceTip": "人均 ¥33",
+      "discounts2": [{
+        "info": "满80减5",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "紫金山路105号",
+      "shipping_time": "10:30-22:00"
+    }, {
+      "mtWmPoiId": "850542141245549",
+      "shopName": "谨食健身营养餐",
+      "wmPoiScore": 48,
+      "monthSalesTip": "月售3866",
+      "picUrl": "http://p1.meituan.net/business/035527efbd00025cc6e47c91d78e603e347971.jpg",
+      "poiTypeIcon": "",
+      "deliveryTimeTip": "30分钟",
+      "deliveryType": 0,
+      "minPriceTip": "起送 ¥15",
+      "shippingFeeTip": "配送 ¥3",
+      "origin_shipping_fee_tip": "",
+      "status": 1,
+      "statusDesc": "",
+      "distance": "816m",
+      "averagePriceTip": "人均 ¥19",
+      "discounts2": [{
+        "info": "满8减8;满25减10;满40减14;满50减17;满80减32",
+        "iconUrl": "http://p0.meituan.net/xianfu/f8bc8dffdbc805878aa3801a33f563cd1001.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "折扣商品7.98折起",
+        "iconUrl": "http://p1.meituan.net/xianfu/9c997ecce6150671b8459738a26f8bd9767.png",
+        "promotionType": 2,
+        "activityId": 0
+      }, {
+        "info": "实际支付40元返1元商家代金券",
+        "iconUrl": "http://p0.meituan.net/xianfu/652eea4034250563fe11b02e3219ba8d981.png",
+        "promotionType": 2,
+        "activityId": 0
+      }],
+      "address": "长江中路433号1楼285号网点",
+      "shipping_time": "09:40-20:00"
+    }
+  ],
+  "orderlist": [
+    {
+    "orderId": "41942901205790281",
+    "mtOrderViewId": "41942901205790281",
+    "shopName": "眼镜炸串",
+    "totalPrice": "19.0",
+    "orderTime": "2019-03-15 18:39",
+    "orderTimeSec": 1552646392,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/786b1ed4e54aa63de905aba5fb76df1831199.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "蘑菇",
+      "productCount": 1
+    }, {
+      "productName": "海欣蟹棒",
+      "productCount": 1
+    }, {
+      "productName": "川香脆",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1049094184436545",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }, {
+      "title": "评价",
+      "type": 2010,
+      "isHighlight": 1
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "64887552453918302",
+    "mtOrderViewId": "64887552453918302",
+    "shopName": "一禾小筑",
+    "totalPrice": "14.0",
+    "orderTime": "2019-03-13 11:45",
+    "orderTimeSec": 1552448718,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/f1dff5089a6c088e7fbe6ff473577a142125044.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "藜麦糙米饭（单点不卖只随轻食或套餐出售）",
+      "productCount": 1
+    }, {
+      "productName": "海苔法棍（单点不卖）",
+      "productCount": 1
+    }, {
+      "productName": "秘制烤鸡胸肉能量餐(无主食)",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1074584815344444",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }, {
+      "title": "评价",
+      "type": 2010,
+      "isHighlight": 1
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "27618680738664917",
+    "mtOrderViewId": "27618680738664917",
+    "shopName": "米多面多（长江路店）",
+    "totalPrice": "18.3",
+    "orderTime": "2019-03-12 11:51",
+    "orderTimeSec": 1552362687,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/waimaipoi/8652029456d848465f0f7e97da490747203031.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "美味低脂（鲍汁双菇饭+卤蛋+紫菜蛋花汤）",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1063834512209431",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }, {
+      "title": "评价",
+      "type": 2010,
+      "isHighlight": 1
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "64887553221978897",
+    "mtOrderViewId": "64887553221978897",
+    "shopName": "一禾小筑",
+    "totalPrice": "13.0",
+    "orderTime": "2019-03-11 11:38",
+    "orderTimeSec": 1552275487,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/f1dff5089a6c088e7fbe6ff473577a142125044.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "咖喱鸡肉法棍",
+      "productCount": 1
+    }, {
+      "productName": "奶油南瓜浓汤",
+      "productCount": 1
+    }, {
+      "productName": "海苔法棍",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1074584815344444",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }, {
+      "title": "评价",
+      "type": 2010,
+      "isHighlight": 1
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "65129762027911010",
+    "mtOrderViewId": "65129762027911010",
+    "shopName": "福家德水饺（黄岛五分店）",
+    "totalPrice": "13.3",
+    "orderTime": "2019-03-09 18:46",
+    "orderTimeSec": 1552128405,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/ce427d329681301f1094acf66a05312a60473.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "素三鲜.水饺（约一斤22个）满减特价",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1044017533109696",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "61339210645633648",
+    "mtOrderViewId": "61339210645633648",
+    "shopName": "小鲜稻湖南米粉",
+    "totalPrice": "10.69",
+    "orderTime": "2019-03-07 11:23",
+    "orderTimeSec": 1551929007,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/business/8c98598b0d2d001b8d7df93c311d3d1f40342.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "麻油包（每单限购1份,多点不送）",
+      "productCount": 1
+    }, {
+      "productName": "鹌鹑蛋 4个",
+      "productCount": 1
+    }, {
+      "productName": "常德牛肉粉（中辣）",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1081744525851914",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "61683582026143742",
+    "mtOrderViewId": "61683582026143742",
+    "shopName": "三米粥铺（黄岛店）",
+    "totalPrice": "17.0",
+    "orderTime": "2019-03-01 11:36",
+    "orderTimeSec": 1551411379,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/business/3ca8e9ed08c19daaab3157c75951bdee48961.png",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "三米红豆粥",
+      "productCount": 1
+    }, {
+      "productName": "三米藕夹(4支装)",
+      "productCount": 1
+    }, {
+      "productName": "三米牛肉饼",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "902163353301183",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "60609130848549002",
+    "mtOrderViewId": "60609130848549002",
+    "shopName": "谨食健身营养餐",
+    "totalPrice": "17.0",
+    "orderTime": "2019-02-28 11:10",
+    "orderTimeSec": 1551323435,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/business/035527efbd00025cc6e47c91d78e603e347971.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "秘制香煎鸡胸套餐",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "850542141311085",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "64887551803982680",
+    "mtOrderViewId": "64887551803982680",
+    "shopName": "一禾小筑",
+    "totalPrice": "15.0",
+    "orderTime": "2019-02-27 11:06",
+    "orderTimeSec": 1551236805,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/f1dff5089a6c088e7fbe6ff473577a142125044.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "奶油玉米浓汤",
+      "productCount": 1
+    }, {
+      "productName": "海苔法棍",
+      "productCount": 1
+    }, {
+      "productName": "秘制烤鸡胸肉能量餐(无主食)",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1074584815344444",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "44272132404146515",
+    "mtOrderViewId": "44272132404146515",
+    "shopName": "铁板烧牛扒饭（薛家岛金海岸利群店）",
+    "totalPrice": "18.88",
+    "orderTime": "2019-02-26 11:13",
+    "orderTimeSec": 1551150802,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/business/acb4fe710a3440ff1281a08b09e0bbff409454.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "鸡排➕牛排➕煎蛋双拼饭➕配菜➕营养煎蛋➕玉米粒➕烤肠",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1121210980323650",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "61339213353563451",
+    "mtOrderViewId": "61339213353563451",
+    "shopName": "小鲜稻湖南米粉",
+    "totalPrice": "13.09",
+    "orderTime": "2019-02-25 11:31",
+    "orderTimeSec": 1551065514,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/business/8c98598b0d2d001b8d7df93c311d3d1f40342.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "辣椒包（每单限购1份，多点不送）",
+      "productCount": 1
+    }, {
+      "productName": "麻油包（每单限购1份,多点不送）",
+      "productCount": 1
+    }, {
+      "productName": "小油菜",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1081744525851914",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "26699653151996744",
+    "mtOrderViewId": "26699653151996744",
+    "shopName": "欢乐美滋脆皮鸡米饭（总店）",
+    "totalPrice": "19.6",
+    "orderTime": "2019-02-24 11:14",
+    "orderTimeSec": 1550978096,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/waimaipoi/0270debab4aa946de21569bf7ffd3d8e463625.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "飘香孜然脆皮鸡米饭（大份）+汇源果汁饮料",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "988114238778644",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "41942902466662157",
+    "mtOrderViewId": "41942902466662157",
+    "shopName": "眼镜炸串",
+    "totalPrice": "22.0",
+    "orderTime": "2019-02-22 17:47",
+    "orderTimeSec": 1550828874,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/786b1ed4e54aa63de905aba5fb76df1831199.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "小饼",
+      "productCount": 1
+    }, {
+      "productName": "精肉大鸡排",
+      "productCount": 1
+    }, {
+      "productName": "大骨肉相连",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1049094184436545",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "65264761987704519",
+    "mtOrderViewId": "65264761987704519",
+    "shopName": "米农小份菜",
+    "totalPrice": "13.6",
+    "orderTime": "2019-02-21 11:30",
+    "orderTimeSec": 1550719830,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/waimaipoi/bd9e7e601e8d3719b5420f962aba40eb111228.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "紫菜蛋花汤",
+      "productCount": 1
+    }, {
+      "productName": "手工馒头来一个",
+      "productCount": 1
+    }, {
+      "productName": "木须肉来一份",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1076680759421764",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "31779031445162472",
+    "mtOrderViewId": "31779031445162472",
+    "shopName": "川府宴语精品川菜",
+    "totalPrice": "25.86",
+    "orderTime": "2019-02-20 18:29",
+    "orderTimeSec": 1550658547,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/waimaipoi/907edcab327f24ddf25ab1c713af7ceb9875.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "米饭",
+      "productCount": 1
+    }, {
+      "productName": "酸辣蕨根粉",
+      "productCount": 1
+    }, {
+      "productName": "宫保鸡丁",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "952938456617516",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "4724514220331032",
+    "mtOrderViewId": "4724514220331032",
+    "shopName": "凡人与粉桂林米粉",
+    "totalPrice": "43.0",
+    "orderTime": "2019-02-20 11:52",
+    "orderTimeSec": 1550634744,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/e132375ad861979275a343658e855186391870.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "炒圆米粉",
+      "productCount": 2
+    }],
+    "mtWmPoiId": "1123835205341779",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "63723782337955990",
+    "mtOrderViewId": "63723782337955990",
+    "shopName": "鱿少爷正宗武汉热干面",
+    "totalPrice": "19.0",
+    "orderTime": "2019-02-19 17:45",
+    "orderTimeSec": 1550569500,
+    "payStatus": 3,
+    "img": "http://p1.meituan.net/waimaipoi/198d6c4c2b97fdfead6645157eeddd84466944.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "油条",
+      "productCount": 2
+    }, {
+      "productName": "武汉热干面",
+      "productCount": 1
+    }, {
+      "productName": "肉夹馍",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1000591118790323",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "24343091475451032",
+    "mtOrderViewId": "24343091475451032",
+    "shopName": "李部长炸鸡啤酒（靖江路店）",
+    "totalPrice": "34.99",
+    "orderTime": "2019-02-18 18:10",
+    "orderTimeSec": 1550484651,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/37849f201c23afe20986714f00e020de120161.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "特色        甜辣酱",
+      "productCount": 1
+    }, {
+      "productName": "特色，甘梅地瓜",
+      "productCount": 1
+    }, {
+      "productName": "韩式香酥鸡翅，中份",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "862684013887614",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "64089554089678306",
+    "mtOrderViewId": "64089554089678306",
+    "shopName": "蓝港快鱼-无骨烤鱼饭",
+    "totalPrice": "18.8",
+    "orderTime": "2019-02-18 11:14",
+    "orderTimeSec": 1550459656,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/ed982ff986fd4296305e7502ad85a5b183938.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "招牌香辣烤鱼饭（烤鱼饭+配菜+泰国香米",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1031201350697410",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }, {
+    "orderId": "61413490472865767",
+    "mtOrderViewId": "61413490472865767",
+    "shopName": "格莱米低卡轻餐",
+    "totalPrice": "24.38",
+    "orderTime": "2019-02-17 14:11",
+    "orderTimeSec": 1550383911,
+    "payStatus": 3,
+    "img": "http://p0.meituan.net/waimaipoi/35c9ed82d43f2dd5ab4ca60bc59d652f42670.jpg",
+    "orderStatusStr": "订单已完成",
+    "highlight": 0,
+    "useMTPay": true,
+    "payOrderId": 0,
+    "productList": [{
+      "productName": "燕麦烤鸡胸燃脂餐（350卡）",
+      "productCount": 1
+    }],
+    "mtWmPoiId": "1050966790217400",
+    "shopId": 0,
+    "buttonList": [{
+      "title": "再来一单",
+      "type": 1001,
+      "isHighlight": 0
+    }],
+    "orderPlatform": 0,
+    "canDelete": 1,
+    "orderAccountType": 0,
+    "orderSource": 2
+  }],
+  "judasData": {
+    "rankTraceId": "5BE3C7B255049B068B69D3D325B6A3DE"
+  }
+}

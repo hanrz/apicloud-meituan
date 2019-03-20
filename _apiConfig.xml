@@ -1,0 +1,37 @@
+ <widget id="A6007739889187"  version="0.0.1">
+    <name>学有惠</name>
+    <description></description>
+    <author email="" href=""></author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="userAgent" value="vue_apicloud"/>
+    <preference name="pageBounce" value="true"/>
+    <preference name="appBackground" value="rgb(250, 250, 250)"/>
+    <preference name="windowBackground" value="rgb(250, 250, 250)"/>
+    <preference name="frameBackgroundColor" value="rgb(250, 250, 250)"/>
+    <preference name="hScrollBarEnabled" value="false"/>
+    <preference name="vScrollBarEnabled" value="false"/>
+    <preference name="autoLaunch" value="true"/>
+    <preference name="fullScreen" value="false"/>
+    <preference name="autoUpdate" value="true" />
+    <preference name="smartUpdate" value="false" />
+    <preference name="softInputBarEnabled" value="false" />
+    <preference name="softInputMode" value="pan" />
+    <preference name="debug" value="true"/>
+    <preference name="statusBarAppearance" value="true"/>
+    <permission name="readPhoneState" />
+    <permission name="camera" />
+    <permission name="record" />
+    <permission name="location" />
+    <permission name="fileSystem" />
+    <permission name="internet" />
+    <permission name="bootCompleted" />
+    <permission name="hardware" />
+<feature name="bmLocation">
+    <param name="ios_api_key" value="kt8tCtGULQBGMmSGv975wfGeApt71nTF" />
+  </feature>
+   <meta-data
+     name="com.baidu.lbsapi.API_KEY"
+     value="kt8tCtGULQBGMmSGv975wfGeApt71nTF" />
+</widget>
+
