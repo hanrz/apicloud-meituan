@@ -164,7 +164,7 @@ export default {
         };
     },
     created() {
-        this.$http.get('api/orderlist').then((response) => {
+        this.$http.get('http://192.168.2.142:8080/api/orderlist').then((response) => {
             response = response.body;
             if (response.errno === 0) {
                 for (let i = 0; i < response.data.length; i++) {

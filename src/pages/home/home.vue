@@ -160,13 +160,13 @@ export default {
         this._getWeather(this.city)
         this.probeType = 3
         this.listenScroll = true
-        this.$http.get('api/catedata').then((response) => {
+        this.$http.get('http://192.168.2.142:8080/api/catedata').then((response) => {
             response = response.body;
             if (response.errno === 0) {
                 this.catedata = response.data.kingkongList;
             }
         })
-        this.$http.get('api/shoplist').then((response) => {
+        this.$http.get('http://192.168.2.142:8080/api/shoplist').then((response) => {
             response = response.body;
             if (response.errno === 0) {
                 for (let i = 0; i < response.data.length; i++) {

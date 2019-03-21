@@ -9,7 +9,11 @@ import searchFrame from '@/components/searchframe/searchframe'
 Vue.use(Router)
 
 export default new Router({
-  routes: [{
+  routes: [
+    {
+      path: '/',
+      redirect: '/home'
+    }, {
       path: '/home',
       name: 'home',
       component: Home,

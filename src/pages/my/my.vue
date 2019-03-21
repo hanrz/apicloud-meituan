@@ -21,7 +21,7 @@ export default {
     watch: {}
 }
 </script>
-<style>
+<style scoped>
 .header {
     background-image: url("bg_mine_account_image@2x.png");
     position: relative;

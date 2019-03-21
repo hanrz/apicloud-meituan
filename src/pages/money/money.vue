@@ -15,7 +15,8 @@
     components: {},
     computed: {},
     beforeMount() {},
-    mounted() {},
+    mounted() {
+    },
     methods: {},
     watch: {}
   }
