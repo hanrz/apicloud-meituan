@@ -6,8 +6,7 @@
         </div>
         <transition name="fade">
             <div class="bg-wrapper" v-show="isfocus">
-                <div  style="height:100%;width:100%;overflow:scroll;-webkit-overflow-scrolling : touch;">
-                </div>
+                <div style="height:100%;width:100%;overflow:scroll;-webkit-overflow-scrolling : touch;"></div>
             </div>
         </transition>
         <div class="header" ref="header"></div>
@@ -19,7 +18,7 @@
                 <i class="iconfont icon-right-arrow"></i>
             </div>
             <div class="tidings-warpper">
-                <i class="iconfont  icon-xiaoxi"></i>
+                <i class="iconfont icon-xiaoxi"></i>
             </div>
             <div class="weather-wrapper" v-show="weather">
                 <span class="temp">{{weather ? weather.wendu : '...'}}°</span>
@@ -54,7 +53,7 @@
             </slider>
         </div>
         <div class="cate-wrapper">
-            <div class="cate-item" v-for="(cate, index) in catedata.slice(0, 10)" :key="index">
+            <div class="cate-item" v-for="(cate, index) in catedata.slice(0, 10)" :key="index" @click="pathTo(cate.path)">
                 <img :src="cate.icon" class="cate-icon">
                 <span class="cate-name" v-text="cate.name"></span>
             </div>
@@ -74,7 +73,7 @@
         </div>
         <div class="shoplist-wrapper" v-show="shopList.length">
             <Title :name="titleName[1].name" :des="titleName[1].des"></Title>
-            <Shoplist :shopList="shopList" @sortclick="scrollToSort" ref="shoplist"></Shoplist>
+            <Shoplist :shopList="shopList" :sortshow="sortshow" @sortclick="scrollToSort" ref="shoplist"></Shoplist>
         </div>
         <div class="loading-container" v-show="!shopList.length">
             <loading></loading>
@@ -93,10 +92,10 @@ import { scrollAnimation, prefixStyle } from '@/common/js/dom'
 import Shoplist from '@/base/shoplist/shoplist'
 import { getWeather } from '@/common/js/api.js'
 import { mapGetters, mapMutations } from 'vuex'
-import { setTimeout } from 'timers';
+import { setTimeout } from 'timers'
 
 const transform = prefixStyle('transform')
-const scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+const scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop
 
 export default {
     name: '',
@@ -117,17 +116,20 @@ export default {
                     name: '附近商家',
                     des: '急速取餐 同享优惠',
                     func: '更多'
-                }],
+                }
+            ],
             recommends: [
                 {
                     id: '0',
                     linkUrl: '#',
                     picUrl: 'http://p0.meituan.net/720.0.100/wmbanner/c01854827d759f396d1228772939785c91270.jpg'
-                }, {
+                },
+                {
                     id: '1',
                     linkUrl: '#',
                     picUrl: 'http://p0.meituan.net/720.0.100/wmbanner/9bea9a21f5af519770b4e40e1fd0b3ba160239.png'
-                }, {
+                },
+                {
                     id: '2',
                     linkUrl: '#',
                     picUrl: 'http://p1.meituan.net/720.0.100/bizad/bizad_zzcpm_create5617081550835940358685.jpg'
@@ -145,96 +147,122 @@ export default {
             weatherType: '',
             disabled: false,
             readonly: false,
-            isfocus: false
-        };
+            isfocus: false,
+            sortshow: false
+        }
     },
     components: {
-        Location, Search, ImageScroll, Slider, Title, Loading, Shoplist
+        Location,
+        Search,
+        ImageScroll,
+        Slider,
+        Title,
+        Loading,
+        Shoplist
     },
     computed: {
-        ...mapGetters([
-            'isShowLocation', 'homeScrollTop'
-        ])
+        ...mapGetters(['isShowLocation', 'homeScrollTop'])
     },
     created() {
         this._getWeather(this.city)
+        this.setScrollListener()
         this.probeType = 3
         this.listenScroll = true
-        this.$http.get('http://192.168.2.142:8080/api/catedata').then((response) => {
-            response = response.body;
+        this.$http.get(this.localApi + 'api/catedata').then(response => {
+            response = response.body
             if (response.errno === 0) {
-                this.catedata = response.data.kingkongList;
+                this.catedata = response.data.kingkongList
             }
         })
-        this.$http.get('http://192.168.2.142:8080/api/shoplist').then((response) => {
-            response = response.body;
+        this.$http.get(this.localApi + 'api/shoplist').then(response => {
+            response = response.body
             if (response.errno === 0) {
                 for (let i = 0; i < response.data.length; i++) {
                     response.data[i].showlimit = false
                 }
-                this.shopList = response.data;
+                this.shopList = response.data
             }
         })
-        window.addEventListener('scroll', () => {
-            this.scrollY = window.scrollY
-        }, true)
     },
     activated() {
         window.scrollTo(0, this.homeScrollTop)
+        this.searchShow = false
     },
     deactivated() {
         this.setHomeScrollTop(window.scrollY)
     },
-    beforeMount() { },
+    beforeMount() {},
     mounted() {
-        this.$refs.header.style.height = api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
-        this.$refs.SearchWrapper.style.top = this.global.isApp ? api.safeArea.top + this.HEAD_PADDING_TOP + 'px' : 0
-        this.$refs.home.style.paddingTop = api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
-        this.$refs.home.style.paddingBottom = api.safeArea.bottom + 'px'
+        this._initSize()
     },
     methods: {
         ...mapMutations({
             setShowLocation: 'SET_SHOW_LOCATION',
             setHomeScrollTop: 'SET_HOME_SCROLLTOP'
         }),
+        _initSize() {
+            this.$refs.header.style.height = 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
+            this.$refs.SearchWrapper.style.top = this.global.isApp ? 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 'px' : 0
+            this.$refs.home.style.paddingTop = 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
+            this.$refs.home.style.paddingBottom = api.safeArea.bottom + 90 + 'px'
+        },
         seatOpenSearch(el) {
             this.isfocus = true
-            api.setWinAttr({
+            api.setFrameAttr({
                 scrollEnabled: false
-
-            });
+            })
         },
         focusThis() {
             this.isfocus = true
-            api.setWinAttr({
+            api.setFrameAttr({
                 scrollEnabled: false
-            });
+            })
         },
         blurThis() {
             this.isfocus = false
-            api.setWinAttr({
+            api.setFrameAttr({
                 scrollEnabled: true
-            });
+            })
             this.$refs.comSearch.blurThis()
             this.$refs.seatSearch.blurThis()
         },
         toggleLocation() {
             this.setShowLocation(true)
-            var NVTabBar = api.require('NVTabBar');
+            var NVTabBar = api.require('NVTabBar')
             NVTabBar.hide({
                 animation: false
-            });
+            })
         },
         loadImage() {
             if (!this.checkLoaded) {
                 this.checkLoaded = true
             }
         },
-        scrollToSort(el) {
-            scrollAnimation(scrollTop, el.offsetTop - (this.global.isApp ? api.safeArea.top : 0) - this.$refs.header.clientHeight)
+        scrollToSort(e) {
+            let el = e[0]
+            let event = e[1]
+            if(event.clientY > 390){
+                scrollAnimation(event.clientY, el.offsetTop - (this.global.isApp ? api.safeArea.top : 0) - this.$refs.header.clientHeight)
+            }
+        },
+        pathTo(path) {
+            this.$router.push(`/${path}`)
+            var NVTabBar = api.require('NVTabBar')
+            NVTabBar.hide({
+                animation: false
+            })
+        },
+        setScrollListener() {
+            window.addEventListener(
+                'scroll',
+                () => {
+                    this.scrollY = window.scrollY
+                },
+                true
+            )
         },
         _getWeather(city) {
-            getWeather(city).then((res) => {
+            getWeather(city).then(res => {
                 if (res.status === 1000) {
                     this.weather = res.data
                     let type = res.data.forecast[0].type
@@ -259,16 +287,17 @@ export default {
     watch: {
         scrollY(newY) {
             this.searchShow = newY > 38
+            this.sortshow = newY > this.$refs.shoplist.$el.offsetTop - 50 - 2 * api.safeArea.top - this.HEAD_PADDING_TOP
         },
         isShowLocation(newVal) {
             if (newVal) {
-                api.setWinAttr({
+                api.setFrameAttr({
                     scrollEnabled: false
-                });
+                })
             } else {
-                api.setWinAttr({
+                api.setFrameAttr({
                     scrollEnabled: true
-                });
+                })
             }
         }
     }
@@ -348,19 +377,19 @@ export default {
     background-size: 100% 100%;
 }
 .weather-wrapper i.sunny {
-    background-image: url("icon_weather_sunny@2x.png");
+    background-image: url('icon_weather_sunny@2x.png');
 }
 .weather-wrapper i.snow {
-    background-image: url("icon_weather_snow@2x.png");
+    background-image: url('icon_weather_snow@2x.png');
 }
 .weather-wrapper i.cloudy {
-    background-image: url("icon_weather_cloudy@2x.png");
+    background-image: url('icon_weather_cloudy@2x.png');
 }
 .weather-wrapper i.rain {
-    background-image: url("icon_weather_rain@2x.png");
+    background-image: url('icon_weather_rain@2x.png');
 }
 .weather-wrapper i.thunder {
-    background-image: url("icon_weather_thundershower@2x.png");
+    background-image: url('icon_weather_thundershower@2x.png');
 }
 .weather-wrapper .temp {
     position: absolute;
@@ -451,7 +480,7 @@ export default {
     white-space: nowrap;
 }
 .hotkey li::after {
-    content: "";
+    content: '';
     position: absolute;
     height: 8px;
     border-left: 1px solid rgb(217, 217, 217);

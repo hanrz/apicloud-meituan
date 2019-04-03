@@ -4,3 +4,6 @@ export const isShowLocation = (state) => {
 export const homeScrollTop = (state) => {
   return state.homeScrollTop
 }
+export const orderScrollTop = (state) => {
+    return state.orderScrollTop
+  }

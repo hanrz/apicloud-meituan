@@ -50,7 +50,7 @@ export default {
     computed: {},
     beforeMount() { },
     mounted() {
-        this.$refs.location.style.paddingTop = api.safeArea.top +this.HEAD_PADDING_TOP+ 'px'
+        this.$refs.location.style.paddingTop = 2*api.safeArea.top +this.HEAD_PADDING_TOP+ 'px'
         this.$refs.location.style.paddingBottom = api.safeArea.bottom + 'px'
     },
     methods: {

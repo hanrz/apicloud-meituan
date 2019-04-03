@@ -3,7 +3,7 @@
         <div class="sort-wrapper">
             <div class="sort-l">
                 <div class="sort-cate">
-                    <span class="sort-title" @click.stop="SortClick($el)">{{nosortList[selectSort]}}</span>
+                    <span class="sort-title" @click.stop="SortClick($el,$event)">{{nosortList[selectSort]}}</span>
                     <i class="iconfont icon-bottom-arrow" :class="{showsort:showSort}"></i>
                 </div>
                 <div class="sort-list" ref="sortList">
@@ -19,22 +19,41 @@
                 <i class="iconfont icon-bottom-arrow"></i>
             </div>
         </div>
+        <div class="fixed" v-show="sortshow" ref="fixed">
+            <div class="sort-wrapper">
+                <div class="sort-l">
+                    <div class="sort-cate">
+                        <span class="sort-title" @click.stop="SortClick($el,$event)">{{nosortList[selectSort]}}</span>
+                        <i class="iconfont icon-bottom-arrow" :class="{showsort:showSort}"></i>
+                    </div>
+                    <div class="sort-list" ref="sortList">
+                        <ul>
+                            <li v-for="(sort, index) in nosortList" :key="index" ref="sortitem" :class="{active:selectSort === index}" @click="selectThisSort(index)">{{sort}}</li>
+                        </ul>
+                    </div>
+                    <div class="sort-sp">销量</div>
+                    <div class="sort-sp">距离</div>
+                </div>
+                <div class="sort-r">
+                    <span class="sort-sp">筛选</span>
+                    <i class="iconfont icon-bottom-arrow"></i>
+                </div>
+            </div>
+            <div class="filter-wrapper">
+                <div class="filter-item">会员红包</div>
+                <div class="filter-item">减配送费</div>
+                <div class="filter-item">赠准时宝</div>
+                <div class="filter-item">满减优惠</div>
+            </div>
+        </div>
         <transition name="fade">
             <div class="bg-wrapper" v-show="showSort" @touchstart="SortClick()"></div>
         </transition>
         <div class="filter-wrapper">
-            <div class="filter-item">
-                会员红包
-            </div>
-            <div class="filter-item">
-                减配送费
-            </div>
-            <div class="filter-item">
-                赠准时宝
-            </div>
-            <div class="filter-item">
-                满减优惠
-            </div>
+            <div class="filter-item">会员红包</div>
+            <div class="filter-item">减配送费</div>
+            <div class="filter-item">赠准时宝</div>
+            <div class="filter-item">满减优惠</div>
         </div>
         <div class="list-wrapper">
             <ul class="shop-ul">
@@ -67,16 +86,13 @@
                         <div class="shop-sale" :class="{view:shop.showlimit}" @click.stop="_toggleCounts(index)">
                             <i class="iconfont icon-bottom-arrow"></i>
                             <div v-for="(dis, dindex) in shop.discounts2" :key="dindex">
-                                <span class="discount" v-for="(count, cindex) in dis.info.split(';')" :key="cindex">
-                                    {{count}}
-                                </span>
+                                <span class="discount" v-for="(count, cindex) in dis.info.split(';')" :key="cindex">{{count}}</span>
                             </div>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
-
     </div>
 </template>
 
@@ -92,23 +108,28 @@ export default {
             default: () => {
                 return ['综合排序', '速度最快', '评分最高', '起送价最低', '配送费最低', '人均高到低', '人均低到高']
             }
+        },
+        sortshow: {
+            type: Boolean,
+            default: false
         }
     },
     data() {
         return {
             showSort: false,
             selectSort: 0
-        };
+        }
     },
     components: {},
     computed: {},
-    beforeMount() { },
+    beforeMount() {},
     mounted() {
+        this._initSize()
     },
     methods: {
-        SortClick(el) {
+        SortClick(el,event) {
             if (el) {
-                this.$emit('sortclick', el)
+                this.$emit('sortclick', [el,event])
             }
             this.showSort = !this.showSort
             //let itemHeight = this.$refs.sortitem[0].clientHeight
@@ -118,10 +139,12 @@ export default {
             this.selectSort = index
             this.showSort = false
         },
+        _initSize() {
+            this.$refs.fixed.style.top = this.global.isApp ? 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 50 + 'px' : '50px'
+        },
         _filterRemark(num) {
             let arr = num.toString().split('')
             return arr.join('.')
-
         },
         _toArray(str) {
             return str.split(';')
@@ -149,13 +172,21 @@ export default {
 .shoplist {
     width: 100%;
 }
+.fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: rgb(250, 250, 250);
+    padding: 0 15px;
+    z-index: 19;
+    transition: 0.2s all;
+}
 .sort-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0;
     position: relative;
-    z-index: 20;
     margin: 0 -15px;
     padding: 0 15px;
     padding-top: 10px;
@@ -262,7 +293,7 @@ export default {
     overflow: hidden;
 }
 .shop-item .logo::after {
-    content: "";
+    content: '';
     position: absolute;
     border: 1px solid #dad1d4;
     left: 0;
@@ -309,7 +340,7 @@ export default {
     height: 10px;
 }
 .shop-item .content .shop-desc .shop-star .star {
-    background: url("./star.png");
+    background: url('./star.png');
     width: 12px;
     height: 12px;
     float: left;
@@ -369,7 +400,7 @@ export default {
     position: relative;
 }
 .shop-sale .discount::after {
-    content: "";
+    content: '';
     position: absolute;
     border: 1px solid #dad1d4;
     left: 0;

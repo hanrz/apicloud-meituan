@@ -36,23 +36,18 @@
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="content-top-left">
-                                                <div class="shop-name">{{item.shopName}} <i class="iconfont icon-right-arrow"></i></div>
+                                                <div class="shop-name">
+                                                    {{item.shopName}}
+                                                    <i class="iconfont icon-right-arrow"></i>
+                                                </div>
                                                 <div class="shop-sale">
-                                                    <span class="discount">
-                                                        满20减10
-                                                    </span>
-                                                    <span class="discount">
-                                                        满35减15
-                                                    </span>
-                                                    <span class="discount">
-                                                        满40减22
-                                                    </span>
+                                                    <span class="discount">满20减10</span>
+                                                    <span class="discount">满35减15</span>
+                                                    <span class="discount">满40减22</span>
                                                     <i class="iconfont icon-dian"></i>
                                                 </div>
                                             </div>
-                                            <div class="order-status">
-                                                {{item.orderStatusStr}}
-                                            </div>
+                                            <div class="order-status">{{item.orderStatusStr}}</div>
                                         </div>
                                         <div class="food">
                                             <div class="food-text">
@@ -60,15 +55,11 @@
                                                 &nbsp;&nbsp;
                                                 等14件商品
                                             </div>
-                                            <div class="food-price">
-                                                ￥{{item.totalPrice}}
-                                            </div>
+                                            <div class="food-price">￥{{item.totalPrice}}</div>
                                         </div>
                                         <div class="button-list">
                                             <div class="button">相似商家</div>
-                                            <div class="button" v-for="(button, idx) in item.buttonList" :key="idx" :class="{highlight:button.isHighlight===1}">
-                                                {{button.title}}
-                                            </div>
+                                            <div class="button" v-for="(button, idx) in item.buttonList" :key="idx" :class="{highlight:button.isHighlight===1}">{{button.title}}</div>
                                         </div>
                                     </div>
                                 </li>
@@ -87,23 +78,18 @@
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="content-top-left">
-                                                <div class="shop-name">{{item.shopName}} <i class="iconfont icon-right-arrow"></i></div>
+                                                <div class="shop-name">
+                                                    {{item.shopName}}
+                                                    <i class="iconfont icon-right-arrow"></i>
+                                                </div>
                                                 <div class="shop-sale">
-                                                    <span class="discount">
-                                                        满20减10
-                                                    </span>
-                                                    <span class="discount">
-                                                        满35减15
-                                                    </span>
-                                                    <span class="discount">
-                                                        满40减22
-                                                    </span>
+                                                    <span class="discount">满20减10</span>
+                                                    <span class="discount">满35减15</span>
+                                                    <span class="discount">满40减22</span>
                                                     <i class="iconfont icon-dian"></i>
                                                 </div>
                                             </div>
-                                            <div class="order-status">
-                                                {{item.orderStatusStr}}
-                                            </div>
+                                            <div class="order-status">{{item.orderStatusStr}}</div>
                                         </div>
                                         <div class="food">
                                             <div class="food-text">
@@ -111,15 +97,11 @@
                                                 &nbsp;&nbsp;
                                                 等14件商品
                                             </div>
-                                            <div class="food-price">
-                                                ￥{{item.totalPrice}}
-                                            </div>
+                                            <div class="food-price">￥{{item.totalPrice}}</div>
                                         </div>
                                         <div class="button-list">
                                             <div class="button">相似商家</div>
-                                            <div class="button" v-for="(button, idx) in item.buttonList" :key="idx" :class="{highlight:button.isHighlight===1}">
-                                                {{button.title}}
-                                            </div>
+                                            <div class="button" v-for="(button, idx) in item.buttonList" :key="idx" :class="{highlight:button.isHighlight===1}">{{button.title}}</div>
                                         </div>
                                     </div>
                                 </li>
@@ -140,6 +122,7 @@
 
 <script>
 import Title from '@/base/title/title'
+import { mapGetters, mapMutations } from 'vuex'
 export default {
     name: '',
     props: [],
@@ -158,38 +141,51 @@ export default {
                     name: '我的订单',
                     des: '',
                     func: ''
-                }],
+                }
+            ],
             tabFixed: false,
             tabActiveClass: 'all'
-        };
+        }
     },
     created() {
-        this.$http.get('http://192.168.2.142:8080/api/orderlist').then((response) => {
-            response = response.body;
+        this.$http.get(this.localApi + 'api/orderlist').then(response => {
+            response = response.body
             if (response.errno === 0) {
                 for (let i = 0; i < response.data.length; i++) {
                     response.data[i].showlimit = false
                 }
-                this.orderlist = response.data;
-                this.waitRatinglist = this.filterList(response.data);
+                this.orderlist = response.data
+                this.waitRatinglist = this.filterList(response.data)
             }
         })
-        window.addEventListener('scroll', () => {
-            this.scrollY = window.scrollY
-        }, true)
+        window.addEventListener(
+            'scroll',
+            () => {
+                this.scrollY = window.scrollY
+            },
+            true
+        )
     },
     components: {
         Title
     },
-    computed: {},
-    beforeMount() { },
+    computed: {
+        ...mapGetters(['orderScrollTop'])
+    },
+    activated() {
+        window.scrollTo(0, this.orderScrollTop)
+    },
+    deactivated() {
+        this.setOrderScrollTop(window.scrollY)
+    },
+    beforeMount() {},
     mounted() {
-        this.$refs.header.style.paddingTop = api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
-        this.$refs.main.style.paddingTop = this.$refs.header.clientHeight  - 25 + 'px'
-        this.$refs.main.style.paddingBottom = api.safeArea.bottom + 'px'
-        this.$refs.navmyorder.style.top = api.safeArea.top + this.HEAD_PADDING_TOP + 45 + 'px'
+        this._initSize()
     },
     methods: {
+        ...mapMutations({
+            setOrderScrollTop: 'SET_ORDER_SCROLLTOP'
+        }),
         chooseThis(str) {
             this.tabActiveClass = str
         },
@@ -203,16 +199,22 @@ export default {
                 })
             })
             return arr
+        },
+        _initSize() {
+            this.$refs.header.style.paddingTop = 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 'px'
+            this.$refs.main.style.paddingTop = this.$refs.header.clientHeight - 25 + 'px'
+            this.$refs.main.style.paddingBottom = api.safeArea.bottom + 90 + 'px'
+            this.$refs.navmyorder.style.top = 2 * api.safeArea.top + this.HEAD_PADDING_TOP + 45 + 'px'
         }
     },
     watch: {
         scrollY(newY) {
             this.tabFixed = newY > 213
-        },
+        }
     }
 }
 </script>
-<style scope>
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
     transition: all 0.3s;
@@ -230,7 +232,7 @@ export default {
     left: 0;
     top: 0;
     z-index: 100;
-    background: rgb(250, 250, 250);
+    background: rgb(255, 255, 255);
 }
 .header h1 {
     font-size: 15px;
@@ -243,7 +245,7 @@ export default {
 }
 .recentlybuy-wrapper {
     padding: 0 15px;
-    background: rgb(250, 250, 250);
+    background: rgb(255, 255, 255);
     overflow-y: hidden;
 }
 .recentlybuy {
@@ -298,7 +300,7 @@ export default {
     margin-top: 5px;
 }
 .list-item .num::after {
-    content: "";
+    content: '';
     pointer-events: none; /* 防止点击触发 */
     box-sizing: border-box;
     position: absolute;
@@ -315,7 +317,7 @@ export default {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
     .list-item .num::after {
-        content: "";
+        content: '';
         pointer-events: none; /* 防止点击触发 */
         box-sizing: border-box;
         position: absolute;
@@ -330,7 +332,7 @@ export default {
     }
 }
 .myorder-wrapper {
-    background: rgb(250, 250, 250);
+    background: rgb(255, 255, 255);
 }
 .padding15 {
     padding-left: 15px;
@@ -343,7 +345,7 @@ export default {
     justify-content: center;
     font-size: 0;
     position: relative;
-    background: rgb(250, 250, 250);
+    background: rgb(255, 255, 255);
 }
 .navmyorder.fixed {
     position: fixed;
@@ -364,7 +366,7 @@ export default {
     overflow: hidden;
 }
 .navmyorder::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 1px;
@@ -375,7 +377,7 @@ export default {
     transform-origin: 0 0;
 }
 .navmyorder::after {
-    content: "";
+    content: '';
     pointer-events: none; /* 防止点击触发 */
     box-sizing: border-box;
     position: absolute;
@@ -442,7 +444,7 @@ export default {
     border-radius: 4px;
 }
 .order-list .order-item .logo::after {
-    content: "";
+    content: '';
     position: absolute;
     border: 1px solid #dad1d4;
     left: 0;
@@ -477,7 +479,7 @@ export default {
     padding-bottom: 15px;
 }
 .order-list .order-item .content .content-top::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 2px;
@@ -522,7 +524,7 @@ export default {
     position: relative;
 }
 .order-list .order-item .content .content-top .shop-sale .discount::after {
-    content: "";
+    content: '';
     position: absolute;
     border: 1px solid #dad1d4;
     left: 0;
@@ -597,7 +599,7 @@ export default {
     display: none;
 }
 .order-list .order-item .content .button-list .button::after {
-    content: "";
+    content: '';
     position: absolute;
     border: 1px solid #dad1d4;
     left: 0;

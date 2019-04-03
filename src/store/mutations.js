@@ -6,6 +6,9 @@ const matutaions = {
   },
   [types.SET_HOME_SCROLLTOP](state, homeScrollTop) {
     state.homeScrollTop = homeScrollTop
+  },
+  [types.SET_ORDER_SCROLLTOP](state, orderScrollTop) {
+    state.orderScrollTop = orderScrollTop
   }
 }
 export default matutaions

@@ -13,7 +13,8 @@ import store from './store'
 Vue.use(VueResource);
 Vue.config.productionTip = false
 Vue.prototype.global = sdk
-Vue.prototype.HEAD_PADDING_TOP = 235
+Vue.prototype.HEAD_PADDING_TOP = 226
+Vue.prototype.localApi = 'http://192.168.1.143:8080/'
 
 fastclick.attach(document.body)
 Vue.use(VueLazyLoad)
